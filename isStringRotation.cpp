@@ -6,7 +6,7 @@ bool isRotationForm(string& s1 , string& s2){
 
     string temp;
 
-    temp = s1+s2;
+    temp = s1+s1;
     return(temp.find(s2) != string::npos);
 }
 int main(){
